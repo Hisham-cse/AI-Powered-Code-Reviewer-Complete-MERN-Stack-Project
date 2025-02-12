@@ -1,121 +1,141 @@
+# 🚀 AI-Powered Code Reviewer
+
+An intelligent **code review assistant** leveraging AI to provide instant feedback on your code. Built with the **MERN stack** (MongoDB, Express.js, React.js, Node.js) and powered by **Google Gemini AI**, this tool helps developers write cleaner and more efficient code through an intuitive user interface.
+
+## ✨ Features
+
+- **Real-time Code Analysis** – Get instant feedback on code quality.
+- **Smart Suggestions** – AI-powered recommendations for improvement.
+- **Interactive Code Editor** – Syntax highlighting and markdown support.
+- **Error Handling** – Robust error management with user-friendly messages.
+- **Dark Mode & Responsive UI** – Optimized for seamless user experience.
+
+## 🛠️ Tech Stack
+
+### Frontend:
+
+- React.js – UI development
+- Prism.js – Syntax highlighting
+- React Markdown – Markdown support
+- Axios – API communication
+- CSS3 – Styling
+
+### Backend:
+
+- Node.js – Server-side logic
+- Express.js – REST API development
+- Google Gemini AI API – AI-powered code review
+
+## 🏁 Getting Started
+
+### 📌 Prerequisites
+
+Ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v14 or higher)
+- **npm** or **yarn**
+- **Google Gemini API key**
+
+### 💾 Installation
+
+#### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Hisham-cse/AI-Powered-Code-Reviewer-Complete-MERN-Stack-Project.git
+cd AI-Powered-Code-Reviewer-Complete-MERN-Stack-Project
+```
+## Installation
+    
+### 2️⃣ Install Dependencies
+
+**Backend Setup:**
+```bash
+cd Backend
+npm install
+```
+
+**Frontend Setup:**
+```bash
+cd ../frontend
+npm install
+```
+
+**3️⃣ Environment Setup**
+Create a .env file in the Backend directory and add:
+```bash
+GOOGLE_GEMINI_KEY=your_gemini_api_key
+```
+**4️⃣ Start the Application**
+Run the Backend:
+```bash
+cd Backend
+npm run dev
+```
+Run the Frontend:
+
+```bash
+cd frontend
+npm run dev
+```
+
+## 💻 Usage
+
+1. Open your browser and navigate to **http://localhost:5173**
+2. Write or paste your code in the **left editor panel**
+3. Click the **"Review"** button
+4. View **AI-generated suggestions** in the right panel
+
+## 🔍 AI Review Features
+
+- **Code Quality & Best Practices** – Improve maintainability.
+- **Potential Bugs & Security Issues** – Identify and fix vulnerabilities.
+- **Performance Optimizations** – Enhance execution speed.
+- **Code Style & Formatting** – Ensure clean and readable code.
+- **Documentation Needs** – Improve project clarity.
+- **Design Patterns & Architecture** – Follow industry best practices.
+
+## 🎨 UI Features
+
+- ✔ **Split Screen Interface** – Code editor (left) and AI feedback (right).
+- ✔ **Dark Theme** – Reduces eye strain during long coding sessions.
+- ✔ **Responsive Design** – Works across all screen sizes.
+- ✔ **Error Handling** – Provides descriptive error messages.
+
+## 🤝 Contributing
+
+We welcome contributions! Follow these steps to contribute:
+
+1. **Fork the repository**
+2. **Create a feature branch:**
+
+```bash
+git checkout -b feature/AmazingFeature
+```
+
+**Commit your changes:**
+
+```bash
+git commit -m "Add AmazingFeature"
+```
+**Push to the branch:**
+
+```bash
+git push origin feature/AmazingFeature
+```
+**Open a Pull Request:**
+Go to the original repository on GitHub and click on the "New Pull Request" button. Select the branch you pushed your changes to and submit the Pull Request.
+
+## 📝 License
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
+## 📞 Contact
+
+📧 **Email:** [muhammadhisham305@gmail.com](mailto:muhammadhisham305@gmail.com)  
+📂 **GitHub:** [Hisham-cse](https://github.com/Hisham-cse)  
+🌐 **Project Repository:** [AI-Powered Code Reviewer](https://github.com/Hisham-cse/AI-Powered-Code-Reviewer-Complete-MERN-Stack-Project)
+
+🚀 **Made with ❤️ by Muhammad Hisham**
 
 
-    <h1>🚀 AI-Powered Code Reviewer</h1>
-    <p>An intelligent <strong>code review assistant</strong> leveraging AI to provide instant feedback on your code. Built with the <strong>MERN stack</strong> (MongoDB, Express.js, React.js, Node.js) and powered by <strong>Google Gemini AI</strong>, this tool helps developers write cleaner and more efficient code through an intuitive user interface.</p>
-
-    <h2>✨ Features</h2>
-    <ul>
-        <li><strong>Real-time Code Analysis</strong> – Get instant feedback on code quality.</li>
-        <li><strong>Smart Suggestions</strong> – AI-powered recommendations for improvement.</li>
-        <li><strong>Interactive Code Editor</strong> – Syntax highlighting and markdown support.</li>
-        <li><strong>Error Handling</strong> – Robust error management with user-friendly messages.</li>
-        <li><strong>Dark Mode & Responsive UI</strong> – Optimized for seamless user experience.</li>
-    </ul>
-
-    <h2>🛠️ Tech Stack</h2>
-    <h3>Frontend:</h3>
-    <ul>
-        <li>React.js – UI development</li>
-        <li>Prism.js – Syntax highlighting</li>
-        <li>React Markdown – Markdown support</li>
-        <li>Axios – API communication</li>
-        <li>CSS3 – Styling</li>
-    </ul>
-    <h3>Backend:</h3>
-    <ul>
-        <li>Node.js – Server-side logic</li>
-        <li>Express.js – REST API development</li>
-        <li>Google Gemini AI API – AI-powered code review</li>
-    </ul>
-
-    <h2>🏁 Getting Started</h2>
-
-    <h3>📌 Prerequisites</h3>
-    <p>Ensure you have the following installed:</p>
-    <ul>
-        <li><a href="https://nodejs.org/">Node.js</a> (v14 or higher)</li>
-        <li><strong>npm</strong> or <strong>yarn</strong></li>
-        <li><strong>Google Gemini API key</strong></li>
-    </ul>
-
-    <h3>💾 Installation</h3>
-
-    <div class="highlight">
-        <h4>1️⃣ Clone the Repository</h4>
-        <pre><code>git clone https://github.com/Hisham-cse/AI-Powered-Code-Reviewer-Complete-MERN-Stack-Project.git
-cd AI-Powered-Code-Reviewer-Complete-MERN-Stack-Project</code></pre>
-
-        <h4>2️⃣ Install Dependencies</h4>
-        <p><strong>Backend Setup:</strong></p>
-        <pre><code>cd Backend
-npm install</code></pre>
-
-        <p><strong>Frontend Setup:</strong></p>
-        <pre><code>cd ../frontend
-npm install</code></pre>
-
-        <h4>3️⃣ Environment Setup</h4>
-        <p>Create a <code>.env</code> file in the <strong>Backend</strong> directory and add:</p>
-        <pre><code>GOOGLE_GEMINI_KEY=your_gemini_api_key</code></pre>
-
-        <h4>4️⃣ Start the Application</h4>
-        <p><strong>Run the Backend:</strong></p>
-        <pre><code>cd Backend
-npm run dev</code></pre>
-
-        <p><strong>Run the Frontend:</strong></p>
-        <pre><code>cd frontend
-npm run dev</code></pre>
-    </div>
-
-    <h2>💻 Usage</h2>
-    <ol>
-        <li>Open your browser and navigate to <strong>http://localhost:5173</strong></li>
-        <li>Write or paste your code in the <strong>left editor panel</strong></li>
-        <li>Click the <strong>"Review"</strong> button</li>
-        <li>View <strong>AI-generated suggestions</strong> in the right panel</li>
-    </ol>
-
-    <h2>🔍 AI Review Features</h2>
-    <ul>
-        <li><strong>Code Quality & Best Practices</strong> – Improve maintainability.</li>
-        <li><strong>Potential Bugs & Security Issues</strong> – Identify and fix vulnerabilities.</li>
-        <li><strong>Performance Optimizations</strong> – Enhance execution speed.</li>
-        <li><strong>Code Style & Formatting</strong> – Ensure clean and readable code.</li>
-        <li><strong>Documentation Needs</strong> – Improve project clarity.</li>
-        <li><strong>Design Patterns & Architecture</strong> – Follow industry best practices.</li>
-    </ul>
-
-    <h2>🎨 UI Features</h2>
-    <ul>
-        <li>✔ <strong>Split Screen Interface</strong> – Code editor (left) and AI feedback (right).</li>
-        <li>✔ <strong>Dark Theme</strong> – Reduces eye strain during long coding sessions.</li>
-        <li>✔ <strong>Responsive Design</strong> – Works across all screen sizes.</li>
-        <li>✔ <strong>Error Handling</strong> – Provides descriptive error messages.</li>
-    </ul>
-
-    <h2>🤝 Contributing</h2>
-    <p>We welcome contributions! Follow these steps to contribute:</p>
-    <ol>
-        <li><strong>Fork the repository</strong></li>
-        <li><strong>Create a feature branch:</strong></li>
-        <pre><code>git checkout -b feature/AmazingFeature</code></pre>
-        <li><strong>Commit your changes:</strong></li>
-        <pre><code>git commit -m "Add AmazingFeature"</code></pre>
-        <li><strong>Push to the branch:</strong></li>
-        <pre><code>git push origin feature/AmazingFeature</code></pre>
-        <li><strong>Open a Pull Request</strong></li>
-    </ol>
-
-    <h2>📝 License</h2>
-    <p>This project is licensed under the <strong>MIT License</strong> – see the <a href="LICENSE">LICENSE</a> file for details.</p>
-
-    <h2>📞 Contact</h2>
-    <p>📧 <strong>Email:</strong> <a href="mailto:muhammadhisham305@gmail.com">muhammadhisham305@gmail.com</a></p>
-    <p>📂 <strong>GitHub:</strong> <a href="https://github.com/Hisham-cse">Hisham-cse</a></p>
-    <p>🌐 <strong>Project Repository:</strong> <a href="https://github.com/Hisham-cse/AI-Powered-Code-Reviewer-Complete-MERN-Stack-Project">AI-Powered Code Reviewer</a></p>
-
-    <p>🚀 <strong>Made with ❤️ by Muhammad Hisham</strong></p>
-
-</body>
-</html>
+Let me know if there's anything else you need!
