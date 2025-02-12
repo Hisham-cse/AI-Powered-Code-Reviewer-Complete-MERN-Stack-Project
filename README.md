@@ -1,45 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI-Powered Code Reviewer</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        code {
-            background-color: #ddd;
-            padding: 4px 6px;
-            border-radius: 4px;
-            font-family: "Courier New", monospace;
-        }
-        pre {
-            background-color: #ddd;
-            padding: 10px;
-            border-radius: 5px;
-            overflow-x: auto;
-        }
-        ul {
-            list-style-type: square;
-        }
-        .highlight {
-            background-color: #fff;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 0 5px rgba(0,0,0,0.1);
-        }
-    </style>
-</head>
-<body>
+
 
     <h1>🚀 AI-Powered Code Reviewer</h1>
     <p>An intelligent <strong>code review assistant</strong> leveraging AI to provide instant feedback on your code. Built with the <strong>MERN stack</strong> (MongoDB, Express.js, React.js, Node.js) and powered by <strong>Google Gemini AI</strong>, this tool helps developers write cleaner and more efficient code through an intuitive user interface.</p>
